@@ -6351,6 +6351,7 @@ a.close.disabled {
 
 .carousel {
     position: relative;
+    margin-top: 120px; /*cp*/
 }
 
 .carousel.pointer-event {
@@ -6378,6 +6379,7 @@ a.close.disabled {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: transform 0.6s ease-in-out;
+    height: 500px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -10868,7 +10870,6 @@ form .row:first-child .floating-label-form-group {
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    /*background-color: #2c3e50;*/
     background-color: #044b81;
     color: #fff;
 }

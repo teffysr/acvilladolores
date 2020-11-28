@@ -17,6 +17,9 @@ use App\Http\Controllers\ContactController;
 Route::get('/', function () {
     return view('quienes_somos');
 });
+Route::get('/quienes-somos', function () {
+    return view('quienes_somos');
+});
 Route::get('/contacto',[ContactController::class, 'index']);
 Route::get('/cursos',[\App\Http\Controllers\CoursesController::class, 'index']);
 Route::get('/escuela-de-aviacion',[\App\Http\Controllers\SchoolController::class, 'index']);
