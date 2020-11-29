@@ -76,13 +76,8 @@
                     </div>
                     <div class="col-lg-3 mb-5 mb-lg-0">
                         <h4 class="mb-4">Seguinos</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-instagram"></i></a>
-
-{{--                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>--}}
-{{--                        <!--<a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>--}}
-{{--                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>-->--}}
-{{--                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-instagram"></i></a>--}}
+                        <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.facebook.com/aeroclubvilladoloresoficial/"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.instagram.com/aeroclubvilladolores/"><i class="fab fa-fw fa-instagram"></i></a>
                     </div>
                 </div>
             </div>

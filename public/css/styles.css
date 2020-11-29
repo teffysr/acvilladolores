@@ -10928,6 +10928,9 @@ form .row:first-child .floating-label-form-group {
 .text-lead {
     font-size: 1.2rem;
 }
+.text-lg-rem {
+    font-size: 1rem;
+}
 
 @media (max-width: 991px) {
     .masthead-title {
@@ -10947,4 +10950,30 @@ form .row:first-child .floating-label-form-group {
 .h-500 {
     height: 500px !important;
     overflow: hidden;
+}
+
+.img-w-100 {
+    width: 100% !important;
+}
+
+.courses-title {
+    /*display: flex;*/
+}
+
+.courses-img {
+    /*display: flex;*/
+}
+@media (max-width: 992px) {
+    .box-courses {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .courses-title {
+        /*order: 1;*/
+    }
+
+    .courses-img {
+        /*order: 2;*/
+    }
+
 }
