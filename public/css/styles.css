@@ -6351,7 +6351,7 @@ a.close.disabled {
 
 .carousel {
     position: relative;
-    margin-top: 120px; /*cp*/
+    /*cp*/
 }
 
 .carousel.pointer-event {
@@ -6379,7 +6379,6 @@ a.close.disabled {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: transform 0.6s ease-in-out;
-    height: 500px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -10889,6 +10888,11 @@ form .row:first-child .floating-label-form-group {
     background-size: 100% 100%;
 }
 
+.bg-image-school {
+    background: #2c3e50 url("../assets/img/escuela_de_vuelo/e_1.jpg") repeat center;
+    background-size: 100% 100%;
+}
+
 .bg-menu {
     background: #59b2e7;
 }
@@ -10936,3 +10940,11 @@ form .row:first-child .floating-label-form-group {
     }
 }
 
+.mt-120 {
+    margin-top: 120px !important;
+}
+
+.h-500 {
+    height: 500px !important;
+    overflow: hidden;
+}

@@ -1,7 +1,7 @@
 @extends('layout')
 @section('content')
     <header class="text-white text-center bg-image-contact">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide mt-120" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -39,9 +39,6 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-{{--        <div class="masthead-title">--}}
-{{--            <h1 class="masthead-heading text-uppercase mb-0">¿Quienes Somos?</h1>--}}
-{{--        </div>--}}
 
     </header>
     <!-- Portfolio Section-->
