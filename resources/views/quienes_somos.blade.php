@@ -42,7 +42,7 @@
 
     </header>
     <!-- Portfolio Section-->
-    <section class="page-section portfolio" id="portfolio">
+    <section class="page-section portfolio">
         <div class="container">
             <div class="row">
                 <p class="text-lead">

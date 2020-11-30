@@ -34,7 +34,7 @@
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/quienes-somos">¿Quienes Somos?</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/escuela-de-aviacion">Escuela de Vuelo</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/turismo">Turismo</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/estudiantes">Otras Actividades</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/otras_actividades">Otras Actividades</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/galeria">Galeria</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger btn-contact" href="/contacto">Contacto</a></li>
                     </ul>
@@ -70,8 +70,8 @@
                             <a class="text-white" href="/quienes-somos">¿Quienes Somos?</a><br>
                             <a class="text-white" href="/escuela-de-aviacion">Escuela de Vuelo</a><br>
                             <a class="text-white" href="/turismo">Turismo</a><br>
-                            <a class="text-white" href="http://startbootstrap.com">Otras Actividades</a><br>
-                            <a class="text-white" href="http://startbootstrap.com">Galeria</a><br>
+                            <a class="text-white" href="/otras_actividades">Otras Actividades</a><br>
+                            <a class="text-white" href="/galeria">Galeria</a><br>
                         </p>
                     </div>
                     <div class="col-lg-3 mb-5 mb-lg-0">
