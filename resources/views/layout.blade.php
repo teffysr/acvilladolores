@@ -33,7 +33,7 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/quienes-somos">¿Quienes Somos?</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/escuela-de-aviacion">Escuela de Vuelo</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/extranjeros">Turismo</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/turismo">Turismo</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/estudiantes">Otras Actividades</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/galeria">Galeria</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger btn-contact" href="/contacto">Contacto</a></li>
@@ -67,9 +67,9 @@
                     <div class="col-lg-3">
                         <h4 class="mb-4">Más información</h4>
                         <p class="text-lead mb-0">
-                            <a class="text-white" href="http://startbootstrap.com">¿Quienes Somos?</a><br>
-                            <a class="text-white" href="http://startbootstrap.com">Escuela de Vuelo</a><br>
-                            <a class="text-white" href="http://startbootstrap.com">Turismo</a><br>
+                            <a class="text-white" href="/quienes-somos">¿Quienes Somos?</a><br>
+                            <a class="text-white" href="/escuela-de-aviacion">Escuela de Vuelo</a><br>
+                            <a class="text-white" href="/turismo">Turismo</a><br>
                             <a class="text-white" href="http://startbootstrap.com">Otras Actividades</a><br>
                             <a class="text-white" href="http://startbootstrap.com">Galeria</a><br>
                         </p>

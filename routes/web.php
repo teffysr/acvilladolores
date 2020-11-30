@@ -24,5 +24,5 @@ Route::get('/contacto',[ContactController::class, 'index']);
 Route::get('/cursos',[\App\Http\Controllers\CoursesController::class, 'index']);
 Route::get('/escuela-de-aviacion',[\App\Http\Controllers\SchoolController::class, 'index']);
 Route::get('/estudiantes',[\App\Http\Controllers\StudentsController::class, 'index']);
-Route::get('/extranjeros',[\App\Http\Controllers\ForeingController::class, 'index']);
+Route::get('/turismo',[\App\Http\Controllers\TourismController::class, 'index']);
 Route::get('/galeria',[\App\Http\Controllers\GalleryController::class, 'index']);
