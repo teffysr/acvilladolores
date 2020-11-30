@@ -1,113 +1,63 @@
 @extends('layout')
 @section('content')
-    <header class="text-white text-center bg-image-contact">
+    <header class="text-white text-center bg-image-galeria">
         <div class="masthead-title">
-            <h1 class="masthead-heading text-uppercase mb-0">Galeria</h1>
+            <h1 class="masthead-heading mb-0">Galería</h1>
         </div>
 
     </header>
     <!-- Portfolio Section-->
-    <section class="page-section portfolio" id="portfolio">
+    <section class="page-section portfolio">
         <div class="container">
             <div class="row">
-            <!-- Portfolio Item 1-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/fotos_galeria/DJI_0334.jpg" alt="" />
+                <div class="card-columns">
+                    <div class="card">
+                        <img src="/assets/img/fotos_galeria/DJI_0334.jpg" class="card-img-top" alt="...">
                     </div>
-                </div>
-                <!-- Portfolio Item 2-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/fotos_galeria/DJI_0340.jpg" alt="" />
+                    <div class="card">
+                        <img src="/assets/img/fotos_galeria/DSC_0024.JPG" class="card-img-top" alt="...">
                     </div>
-                </div>
-                <!-- Portfolio Item 3-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/fotos_galeria/DSC_0024.JPG" alt="" />
+                    <div class="card bg-primary text-white text-center p-3">
+                        <blockquote class="blockquote mb-0">
+                            <h5>Vuelos de bautismo</h5>
+                        </blockquote>
                     </div>
-                </div>
-                <!-- Portfolio Item 4-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/fotos_galeria/DSC_0027.JPG" alt="" />
+                    <div class="card">
+                        <img src="/assets/img/fotos_galeria/DSC_0027.JPG" class="card-img-top" alt="...">
                     </div>
-                </div>
-                <!-- Portfolio Item 5-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/fotos_galeria/DSC_0053.JPG" alt="" />
+                    <div class="card text-center">
+                        <img src="/assets/img/fotos_galeria/DSC_0053.JPG" class="card-img-top" alt="...">
                     </div>
-                </div>
-                <!-- Portfolio Item 6-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/fotos_galeria/DSC_0074.JPG" alt="" />
+                    <div class="card bg-primary text-white text-center p-3">
+                        <blockquote class="blockquote mb-0">
+                            <h5>Escuela de vuelo</h5>
+                        </blockquote>
                     </div>
-                </div>
-
-                <!-- Portfolio Item 7-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/fotos_galeria/DSC_0079.JPG" alt="" />
+                    <div class="card">
+                        <img src="/assets/img/fotos_galeria/DSC_0074.JPG" class="card-img-top" alt="...">
                     </div>
-                </div>
-                <!-- Portfolio Item 7-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/fotos_galeria/DSC_0091.JPG" alt="" />
+                    <div class="card">
+                        <img src="/assets/img/fotos_galeria/DSC_0079.JPG" class="card-img-top" alt="...">
                     </div>
-                </div>
-                <!-- Portfolio Item 7-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/fotos_galeria/DSC_0102JPG" alt="" />
+                    <div class="card">
+                        <img src="/assets/img/fotos_galeria/DSC_0091.JPG" class="card-img-top" alt="...">
                     </div>
-                </div>
-                <!-- Portfolio Item 7-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/fotos_galeria/W_1.jpeg" alt="" />
+                    <div class="card">
+                        <img src="/assets/img/fotos_galeria/DSC_0102.JPG" class="card-img-top" alt="...">
                     </div>
-                </div>
-                <!-- Portfolio Item 7-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                        </div>
-                        <img class="img-fluid" src="assets/img/fotos_galeria/W_2.jpeg" alt="" />
+                    <div class="card">
+                        <img src="/assets/img/fotos_galeria/W_1.jpeg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card">
+                        <img src="/assets/img/fotos_galeria/W_2.jpeg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card bg-primary text-white text-center p-3">
+                        <blockquote class="blockquote mb-0">
+                            <h5>Simulador habilitado ANAC</h5>
+                        </blockquote>
+                    </div>
+                    <div class="card">
+                        <img src="/assets/img/fotos_galeria/DJI_0340.jpg" class="card-img-top" alt="...">
                     </div>
                 </div>
             </div>

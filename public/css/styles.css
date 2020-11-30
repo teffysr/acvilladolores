@@ -10898,6 +10898,11 @@ form .row:first-child .floating-label-form-group {
     background-size: 100% 100%;
 }
 
+.bg-image-galeria{
+    background: #2c3e50 url("../assets/img/fotos_galeria/bg-galeria.JPG") repeat center;
+    background-size: 100% 100%;
+}
+
 .bg-menu {
     background: #59b2e7;
 }
