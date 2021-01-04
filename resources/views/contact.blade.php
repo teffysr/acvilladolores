@@ -13,7 +13,8 @@
                 <div class="col-sm-6">
                     <h3 class="e-lead font-weight-bold">Escribinos</h3>
                     <div class="border-bottom width-20px border-blue"></div>
-                    <form class="form-border mt-4 mb-5">
+                    <form class="form-border mt-4 mb-5" method="post" action="/form">
+                        {{ csrf_field() }}
                         <div class="form-group mt-4">
                             <label class="form-label" for="nombre">Nombre</label>
                             <input type="text" class="form-control" id="nombre" required>
@@ -39,20 +40,17 @@
                 <div class="col-sm-6">
                     <h3 class="e-lead font-weight-bold">Contactanos</h3>
                     <div class="border-bottom width-20px border-blue"></div>
-                    <p class="mt-4 text-lead"><a class="btn btn-outline-dark btn-social-small mx-1" href="#!"><i
-                                class="fab fa-fw fa-facebook-f"></i></a></a> Myriam Stefford (Aeroclub Villa Dolores)
+                    <p class="mt-4 text-lead"><a class="btn btn-outline-dark btn-social-small mx-1" target="_blank" href="{{ $contact->facebook_link }}"><i
+                                class="fab fa-fw fa-facebook-f"></i></a> {{ $contact->facebook_name }}
                     </p>
+                    <p class="mt-4 text-lead"><a class="btn btn-outline-dark btn-social-small mx-1" target="_blank" href="{{ $contact->instagram_link }}"><i
+                                class="fab fa-fw fa-instagram"></i></a> {{ $contact->instagram_name }}</p>
                     <p class="mt-4 text-lead"><a class="btn btn-outline-dark btn-social-small mx-1" href="#!"><i
-                                class="fab fa-fw fa-instagram"></i></a> aeroclubvilladolores</p>
-                    <p class="mt-4 text-lead"><a class="btn btn-outline-dark btn-social-small mx-1" href="#!"><i
-                                class="fas fa-phone-alt"></i></a> 03544-424559/ 03544-406649</p>
+                                class="fas fa-phone-alt"></i></a> {{ $contact->main_phone }}/ {{ $contact->secundary_phone }}</p>
                     <h3 class="e-lead font-weight-bold mt-5">Dónde estamos</h3>
                     <div class="border-bottom width-20px border-blue"></div>
-                    <p class="mt-4 text-lead fon">Ubicado sobre la Ruta provincial 14, en la zona de Alto de Castro -
-                        Villa
-                        Dolores Córdoba</p>
-                    <p class="mt-4 text-lead">Subsede céntrica, calle General paz 199 esquina Torres - Villa Dolores
-                        Córdoba</p>
+                    <p class="mt-4 text-lead fon">{{ $contact->main_address }}</p>
+                    <p class="mt-4 text-lead">{{ $contact->secundary_address }}</p>
 
                     <div>
                         <iframe
