@@ -12,22 +12,22 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/assets/img/quienes_somos/portada0_.jpeg" class="d-block w-100" alt="...">
+                    <img src="assets/img/quienes_somos/portada0_.jpeg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="/assets/img/quienes_somos/portada0_1.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/img/quienes_somos/portada0_1.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="/assets/img/quienes_somos/portada0_2.jpeg" class="d-block w-100" alt="...">
+                    <img src="assets/img/quienes_somos/portada0_2.jpeg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="/assets/img/quienes_somos/portada0_4.jpeg" class="d-block w-100" alt="...">
+                    <img src="assets/img/quienes_somos/portada0_4.jpeg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="/assets/img/quienes_somos/portada0_5.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/img/quienes_somos/portada0_5.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="/assets/img/quienes_somos/portada0_6.jpg" class="d-block w-100" alt="...">
+                    <img src="assets/img/quienes_somos/portada0_6.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
