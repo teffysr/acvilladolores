@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
               integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
         <script src="https://cdn.ckeditor.com/ckeditor5/24.0.0/classic/ckeditor.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -101,5 +102,16 @@
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script>
+            $('#formContact').on('submit',function (){
+                Swal.fire({
+                    title: 'Enviando su consulta!',
+                    timerProgressBar: true,
+                    didOpen: () => {
+                        Swal.showLoading()
+                    }
+                });
+            });
+        </script>
     </body>
 </html>

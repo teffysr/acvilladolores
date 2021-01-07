@@ -21,7 +21,7 @@ Route::get('/quienes-somos', function () {
     return view('quienes_somos');
 });
 Route::get('/contacto',[ContactController::class, 'index']);
-Route::post('/form',[ContactController::class, 'sendForm']);
+Route::post('/send-message',[ContactController::class, 'sendForm'])->name('contact.send');
 Route::get('/cursos',[\App\Http\Controllers\CoursesController::class, 'index']);
 Route::get('/escuela-de-aviacion',[\App\Http\Controllers\SchoolController::class, 'index']);
 Route::get('/otras_actividades',[\App\Http\Controllers\OtherActivitiesController::class, 'index']);

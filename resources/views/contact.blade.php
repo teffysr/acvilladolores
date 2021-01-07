@@ -13,29 +13,39 @@
                 <div class="col-sm-6">
                     <h3 class="e-lead font-weight-bold">Escribinos</h3>
                     <div class="border-bottom width-20px border-blue"></div>
-                    <form class="form-border mt-4 mb-5" method="post" action="/form">
+                    <form class="form-border mt-4 mb-5" method="post" action="{{ route('contact.send') }}" id="formContact">
                         {{ csrf_field() }}
                         <div class="form-group mt-4">
                             <label class="form-label" for="nombre">Nombre</label>
-                            <input type="text" class="form-control" id="nombre" required>
+                            <input type="text" class="form-control" id="nombre" name="name" required>
                             <div class="invalid-feedback">
                                 Please choose a username.
                             </div>
                         </div>
                         <div class="form-group">
                             <label class="form-label" for="email">Email</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="email" required>
+                            <input type="email" class="form-control" id="email" aria-describedby="email" name="email" required>
                         </div>
                         <div class="form-group">
                             <label class="form-label" for="pais">País</label>
-                            <input type="text" class="form-control" id="pais">
+                            <input type="text" class="form-control" id="pais" name="country">
                         </div>
                         <div class="form-group">
                             <label class="form-label" for="consulta" required>Consulta</label>
-                            <textarea class="form-control" id="consulta" rows="3"></textarea>
+                            <textarea class="form-control" id="consulta" rows="3" name="message"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
+                        <button type="submit" class="btn btn-primary" id="sendContact">Enviar</button>
+                        @if(\Illuminate\Support\Facades\Session::has('message_sent'))
+                            <script>
+                                Swal.fire(
+                                    '{{ \Illuminate\Support\Facades\Session::get('message_sent') }}!',
+                                    '',
+                                    'success'
+                                )
+                            </script>
+                        @endif
                     </form>
+
                 </div>
                 <div class="col-sm-6">
                     <h3 class="e-lead font-weight-bold">Contactanos</h3>
@@ -63,4 +73,3 @@
         </div>
     </section>
 @endsection
-
